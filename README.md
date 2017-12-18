@@ -7,35 +7,35 @@ cmake_demo is root project directory
 all source files are in src/
 src/
  |
-  - main.cpp   [//] # main file
+  - main.cpp   [//] # (main file)
 
-  - module1/   [//] # example of source code organised in module in its own hierarchy
+  - module1/   [//] # (example of source code organised in module in its own hierarchy)
    |
-    -demo/      [//] # source code of module
-    -include/   [//] # include directory for module
+    -demo/      [//] # (source code of module)
+    -include/   [//] # (include directory for module)
    |
-    -demo/     [//] # header files for module
+    -demo/     [//] # (header files for module)
 
-  - module2/   [//] # example of source code organised in module in its own hierarchy
+  - module2/   [//] # (example of source code organised in module in its own hierarchy)
    |
-    -demo/      [//] # source code of module
-    -include/   [//] # include directory for module
+    -demo/      [//] # (source code of module)
+    -include/   [//] # (include directory for module)
    |
-    -demo/     [//] # header files for module
+    -demo/     [//] # (header files for module)
 
-  -staticlib   [//] # example of static lib
+  -staticlib   [//] # (example of static lib)
    |
-    -slib      [//] # source code of libraty
-    -include   [//] # include directory of library
+    -slib      [//] # (source code of libraty)
+    -include   [//] # (include directory of library)
      |
-      - slib   [//] # header files of library
+      - slib   [//] # (header files of library)
 
-  -dynamiclib   [//] # example of ynamic lib
+  -dynamiclib   [//] # (example of ynamic lib)
    |
-    -dlib      [//] # source code of libraty
-    -include   [//] # include directory of library
+    -dlib      [//] # (source code of libraty)
+    -include   [//] # (include directory of library)
      |
-      - slib   [//] # header files of library
+      - slib   [//] # (header files of library)
 
 
 ## example of usage cmake config file
@@ -46,10 +46,10 @@ in which you can customise some options
 ## example of usage
 in root directory
 
-mkdir build && cd $_       [//] # $_ - bash extension to enter in just created directory
-cmake -C ../cmake_toolchain.cmake ..      [//] # generate cmake project
+mkdir build && cd $_       [//] # ($_ - bash extension to enter in just created directory)
+cmake -C ../cmake_toolchain.cmake ..      [//] # (generate cmake project)
 make [-j 4]
-make install            [//] # install project - prefix is set im main CmakeLists.txt - for example
+make install            [//] # (install project - prefix is set im main CmakeLists.txt - for example)
 
 Enjoy :)
 
